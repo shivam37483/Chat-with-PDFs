@@ -1,0 +1,13 @@
+prefix=E:/CODes/PDF Whisperer/claw/Library
+exec_prefix=E:/CODes/PDF Whisperer/claw/Library
+libdir=E:/CODes/PDF Whisperer/claw/Library/lib
+sharedlibdir=E:/CODes/PDF Whisperer/claw/Library/lib
+includedir=E:/CODes/PDF Whisperer/claw/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
